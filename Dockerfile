@@ -5,7 +5,7 @@
 
 FROM ubuntu
 MAINTAINER mukki
-RUN apt-get update && apt-get -y install apache2
+RUN apt-get update && apt-get -y install apache2 git nano 
 RUN a2enmod ssl
 RUN mkdir /etc/apache2/ssl
 WORKDIR /opt 
