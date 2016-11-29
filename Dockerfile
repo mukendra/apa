@@ -3,7 +3,7 @@
 #Based on Ubuntu
 ##############################################################
 
-FROM ubuntu
+FROM ubuntu:14.04
 MAINTAINER mukki
 RUN apt-get update && apt-get -y install apache2 git nano 
 RUN a2enmod ssl
