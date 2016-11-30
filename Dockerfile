@@ -12,7 +12,7 @@ WORKDIR /opt
 RUN git clone https://github.com/mukendra/apa.git
 #RUN cp /opt/.htpasswd /etc/apache2/.htpasswd
 #ADD .htaccess /var/www/html
-RUN cp/opt/apa/000-default.conf  /etc/apache2/sites-available
+RUN cp /opt/apa/000-default.conf  /etc/apache2/sites-available
 #ADD mukki /var/www/html/index.html
 RUN cp /opt/apa/apache.key /etc/apache2/ssl
 RUN cp /opt/apa/apache.crt /etc/apache2/ssl
