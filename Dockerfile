@@ -4,7 +4,7 @@
 ##############################################################
 
 FROM ubuntu:14.04
-MAINTAINER mukku
+MAINTAINER mukkuu
 RUN apt-get update && apt-get -y install apache2 git nano 
 RUN a2enmod ssl
 RUN mkdir /etc/apache2/ssl
